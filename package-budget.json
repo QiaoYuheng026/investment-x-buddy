@@ -1,0 +1,19 @@
+{
+  "limit_bytes": 30000000,
+  "current_ui_estimate_bytes": 1800000,
+  "candidate_model": {
+    "name": "BAAI/bge-small-zh-v1.5-int8",
+    "role": "Chinese semantic matching, skill ranking, memory recall",
+    "license": "MIT",
+    "model_bytes": 23942210,
+    "tokenizer_bytes": 363921,
+    "runtime_js_bytes": 358028,
+    "runtime_wasm_bytes": 12297086,
+    "binary_included": true,
+    "source_commit": "9507db33464b5da99a532ac26b2a251767cbc62b"
+  },
+  "uncompressed_total_bytes": 36823879.0,
+  "compressed_zip_bytes_measured": 19398336,
+  "estimated_total_bytes": 19398336,
+  "guard": "fail if actual compressed zip bytes exceed limit_bytes"
+}
